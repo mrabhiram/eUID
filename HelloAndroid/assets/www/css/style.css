@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header
+{
+	width : 300px;
+	height : 10px;
+	background-image: linear-gradient(bottom, rgb(129,24,66) 5%, rgb(155,51,93) 53%, rgb(186,77,121) 77%);
+	background-image: -o-linear-gradient(bottom, rgb(129,24,66) 5%, rgb(155,51,93) 53%, rgb(186,77,121) 77%);
+	background-image: -moz-linear-gradient(bottom, rgb(129,24,66) 5%, rgb(155,51,93) 53%, rgb(186,77,121) 77%);
+	background-image: -webkit-linear-gradient(bottom, rgb(129,24,66) 5%, rgb(155,51,93) 53%, rgb(186,77,121) 77%);
+	background-image: -ms-linear-gradient(bottom, rgb(129,24,66) 5%, rgb(155,51,93) 53%, rgb(186,77,121) 77%);
+}
+body{
+	background : #ffffff;
+}
+#web{
+	margin:0px;
+	width : 300px;
+	height : 45px;
+	background : #ffffff;
+	padding-top:10px;
+	display :relative;
+	margin-bottom: 0px;
+	position :relative;
+	left : 15px;
+	-webkit-box-shadow:  0px 3px 10px 5px #E6E6F0;
+	moz-box-shadow : 0px 3px 10px 5px #E6E6F0;
+	top : 50px;
+}
+#web h3
+{
+	position : absolute;
+	top : 30px;
+	
+}
+#web input
+{
+	height : 20px;
+}
+#nav ul li{
+		background : #BDBDBD;
+		background : -webkit-gradient(linear, left top, left bottom,from(#BDBDBD),color-stop(0.5,#2E2E2E));
+		background : -moz-linear-gradient(top,#BDBDBD,#2E2E2E 50% ,#848484);
+		font :  13px/19px "Ubuntu", sans-serif;
+		-webkit-box-shadow:rgba(0,0,0,0.3) 0 1px 2px;
+		-moz-box-shadow:rgba(0,0,0,0.3) 0 1px 2px;
+	align: center;
+	width: 100px;
+	height : 30px;
+	display: inline-block;
+	text-decoration : none;
+	padding : 10px;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-left: 40px;
+	color : white;
+	-webkit-border-radius : 20px 20px 20px 20px;
+	-moz-border-radius:  20px 20px 20px 20px ;
+}
+#nav ul li:hover{
+background :black;
+}
+#nav ul li:last-child{
+	position :relative;
+	left :175px;
+}
+#nav ul li:last-child:hover{
+	background : transparent;
+}
+#nav ul li a{
+	text-decoration:none;
+	color : white;
+}
+#card img
+{
+    height : 90px;
+    width : 90px;
+    position: absolute;
+    left : 270px;
+    top : 50px
+}
+#card
+{
+
+    width : 370px;
+    height: 250px;
+    background : #c0c0c0;
+    -webkit-border-radius : 10px 10px 10px 10px;
+    background : #d2b48c;
+    //background :#c0c0c0;
+    color : #f8f8ff;
+
+}
+#name
+{
+    font-size : 17px;
+    position: absolute;
+    left : 15px;
+    top : 50px;
+}
+#fatherc
+{
+    font-size : 17px;
+    position: absolute;
+    left : 15px;
+    top : 73px;
+
+}
+#dobc
+{
+    font-size : 17px;
+    position: absolute;
+    left : 15px;
+    top : 96px;
+
+}
+#addressc
+{
+    font-size : 17px;
+    position: absolute;
+    left : 15px;
+    top : 119px;
+
+}
+#pincodec
+{
+    font-size : 17px;
+    position: absolute;
+    left : 15px;
+    top : 142px;
+
+}
+#uidc
+{
+    font-size : 30px;
+    position: absolute;
+    left : 20px;
+    top : 200px;
+    color : #fa8072;
+
+}
+#barcodec
+{
+    position : relative;
+    left : 1px;
+    top : 100px
+}
+#web>h3
+{
+	background: #829AA8;
+    background: -moz-linear-gradient(#829AA8,#405A6A);
+    background: -webkit-linear-gradient(#829AA8,#405A6A);
+    width:300px;
+    color : white;
+    text-align:center;
+    
+}
+
+#card
+{
+    position: absolute;
+    left : 50px;
+    top : 50px;
+    width : 50px;
+    height: 50px;
+    background : #c0c0c0;
+    -moz-border-radius : 10px 10px 10px 10px;
+    -webkit-border-radius : 10px 10px 10px 10px;
+    background : #d2b48c;
+    //background :#c0c0c0;
+    color : #f8f8ff;
+
+
+}

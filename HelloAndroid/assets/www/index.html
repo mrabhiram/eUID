@@ -1,0 +1,58 @@
+
+<html>
+<head>
+
+<meta charset="ISO-8859-1">
+<title>Welcome to UID e-Card App</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	
+	<script src="jquery-1.5.min.js"></script>
+<script>
+    
+	<script src="cordova-1.8.0.js"></script>
+	<script>
+	function takeaction(){
+		
+		  var dusername = document.getElementById("username").value;
+		  localStorage.setItem("dusername",dusername);
+		  var dpassword = document.getElementById("password").value;
+		  localStorage.setItem("dpassword",dpassword);
+		var images = "http://10.0.2.2:8080/WebContent/download.jpg";
+		  if(dusername == '' || dpassword == ''){
+				
+			  alert("Username and Password are not entered! Please fill them and then Login.");
+				return false;
+			  }
+		  else return true;
+	}
+	</script>
+</head>
+<body>
+	<h2 style="color:green"> Welcome to UID Management</h2>
+	<div id="web">
+	
+
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<h3>Enter your credentials </h3>		
+	
+	<form action="next.html" onSubmit="return takeaction()" class="well">
+	<br />
+	<br />
+	<br />
+	Username :
+	<br />
+	<input type="text" name="username" id="username">
+	<br />
+	Password:
+	<br/>
+	<input type="password" name="password" id="password">
+	<br />
+	
+	<button type="submit" data-theme="b" class="btn btn-primary">Submit</button>	   
+	</form>
+</body>
+
+</html>
